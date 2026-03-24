@@ -233,9 +233,18 @@ console.log(diaSemana)
 //     contador--
 // }
 
-let numero = 5 
+// let numero = 5 
 
-do {
-    console.log("Número é:" + numero)
-    numero--
-} while (numero > 0)
+// do {
+//     console.log("Número é:" + numero)
+//     numero--
+// } while (numero > 0)
+
+nivelAcesso = 2
+if (nivelAcesso ===2) {
+    console.log("Acesso Parcial")
+} else if (nivelAcesso === 3) {
+        console.log("Acesso total")
+} else {
+    console.log("Acesso negado")
+}
