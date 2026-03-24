@@ -95,18 +95,147 @@
 // console.log(pattern.test("+55(11)92299-0899"));
 // console.log(pattern.test("+55(11)2299-0899"));
 
-let a = 10;
-let b = 3;
-console.log(a + b); // 13
-console.log(a - b); // 7
-console.log(a * b); // 30
-console.log(a / b); // 3.333...
-console.log(a % b); // 1
-console.log(a ** b); // 1000
+// let a = 10;
+// let b = 3;
+// console.log(a + b); // 13
+// console.log(a - b); // 7
+// console.log(a * b); // 30
+// console.log(a / b); // 3.333...
+// console.log(a % b); // 1
+// console.log(a ** b); // 1000
 
-let contador = 0;
+// let contador = 0;
 
-console.log(++contador)
-console.log(contador++)
+// console.log(++contador)
+// console.log(contador++)
 
-aa
+// let idade = 16
+
+// let status = idade >= 18 ? "Maior de idade" : "Menor de idade"
+
+// console.log(idade)
+// console.log(status)
+
+// let valor = null
+
+// let resultado = valor ?? "Valor padrão"
+
+// console.log(resultado)
+
+// let a = 5
+// let b = 10
+// console.log(a == b); // false
+// console.log(a === b); // false
+// console.log(a != b); // true
+// console.log(a !== b); // true 
+// console.log(a > b); // false
+// console.log(a < b); //true
+// console.log(a >= b); // false
+// console.log(a <= b); // true
+
+// let idade = 25
+// let temCarteira = true
+
+// if (idade >= 18 && temCarteira) {
+//     console.log("Pode dirigir")
+// } 
+
+// if (idade < 18 || !temCarteira) {
+//     console.log("Não pode dirigir")
+// } 
+
+// if (!temCarteira) {
+//     console.log("Não pode dirigir")
+// } 
+
+// let tarefaConcluida = true
+
+// if (tarefaConcluida) {
+//     console.log("Tarefa concluída")
+// }
+// else {
+//     console.log("Tarefa pendente")
+// }
+
+// let prioridade = 2
+
+// if (prioridade === 3) {
+//     console.log("Prioridade alta")
+// } else {
+//     console.log("Prioridade nao é alta")
+// }
+
+// console.log(prioridade === 3 ? "Prioridade alta" : "Prioridade nao é alta")
+
+// if(prioridade === 1) {
+//     console.log("Prioridade baixa")
+// } else if (prioridade === 2) {
+//     console.log("Prioridade média")
+// } else if (prioridade === 3) {
+//     console.log("Prioridade alta")
+// } else {
+//     console.log("Prioridade desconhecida")
+// }
+
+let diaSemana = new Date().getDay()
+
+console.log(diaSemana)
+// else if (diaSemana === 0) {
+//     console.log("Domingo")
+// } else if (diaSemana === 1) {
+//     console.log("Segunda-feira")
+// } else if (diaSemana === 2) {
+//     console.log("Terça-feira")
+// } else if (diaSemana === 3) {
+//     console.log("Quarta-feira")
+// } else if (diaSemana === 4) {
+//     console.log("Quinta-feira") 
+// } else if (diaSemana === 5) { 
+//     console.log("Sexta-feira")
+// } else if (diaSemana === 6) {
+//     console.log("Sábado")
+// }
+// switch (diaSemana) {
+//     case 0:
+//         console.log("Domingo") 
+//         break;
+//     case 1:
+//         console.log("Segunda-feira")
+//         break;
+//     case 2:
+//         console.log("Terça-feira")  
+//         break;
+//     case 3:
+//         console.log("Quarta-feira")
+//         break;
+//     case 4:
+//         console.log("Quinta-feira") 
+//         break;
+//     case 5: 
+//         console.log("Sexta-feira")
+//         break;
+//     case 6:
+//         console.log("Sábado")
+//         break;
+//     default:
+//         console.log("Dia da semana desconhecido")
+//         break;
+// }
+
+// for (let i = 0; i <= 5; i++) {
+//     console.log("Contagem:" + i)
+// }
+
+// let contador = 0
+
+// while (contador >= -5) {
+//     console.log("Contagem:" + contador)
+//     contador--
+// }
+
+let numero = 5 
+
+do {
+    console.log("Número é:" + numero)
+    numero--
+} while (numero > 0)
