@@ -177,9 +177,9 @@
 //     console.log("Prioridade desconhecida")
 // }
 
-let diaSemana = new Date().getDay()
+// let diaSemana = new Date().getDay()
 
-console.log(diaSemana)
+// console.log(diaSemana)
 // else if (diaSemana === 0) {
 //     console.log("Domingo")
 // } else if (diaSemana === 1) {
@@ -240,11 +240,43 @@ console.log(diaSemana)
 //     numero--
 // } while (numero > 0)
 
-nivelAcesso = 2
-if (nivelAcesso ===2) {
-    console.log("Acesso Parcial")
-} else if (nivelAcesso === 3) {
-        console.log("Acesso total")
-} else {
-    console.log("Acesso negado")
-}
+// nivelAcesso = 2
+// if (nivelAcesso ===2) {
+//     console.log("Acesso Parcial")
+// } else if (nivelAcesso === 3) {
+//         console.log("Acesso total")
+// } else {
+//     console.log("Acesso negado")
+// }
+
+// A função "saudar" é declarada e sofre hoisting.
+// function saudar(nome) {
+//   // Retorna uma mensagem personalizada
+//   return `Olá, ${nome}! Bem-vindo ao TaskMaster.`;
+// }
+
+// const mensagem = saudar("Maria");
+// console.log(mensagem); // Saída: Olá, Maria! Bem-vindo ao TaskMaster.
+
+// Vai gerar erro: Cannot access 'despedir' before initialization
+// console.log(despedir("João"));
+
+// const despedir = function(nome) {
+//   // Retorna mensagem de despedida
+//   return `Até logo, ${nome}! Volte sempre ao TaskMaster.`;
+// };
+
+// A função "somarDeclarada" pode ser chamada antes de sua definição
+// console.log(somarDeclarada(5, 3)); // Saída: 8
+
+// function somarDeclarada(a, b) {
+//   return a + b;
+// }
+
+// Variável declarada com var é hoisted e inicializada com undefined
+// console.log(xVar); // Saída: undefined
+// var xVar = 10;
+
+// Variável declarada com let é hoisted, mas não inicializada (zona morta)
+// console.log(xLet); // Erro: Cannot access 'xLet' before initialization
+// let xLet = 20;
